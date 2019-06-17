@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	D:\DEV\ESIF\Task2\ESIF_Task2\Subtask1\ESIFTask2_1.sdk\ESIFTask2_1_bd_wrapper_hw_platform_0\ESIFTask2_1_bd_wrapper.bit
+	D:\DEV\ESIF\Task2\ESIF_Task2\Subtask1\ESIFTask2_1.sdk\ESIF2_1_App\Debug\ESIF2_1_App.elf
+}

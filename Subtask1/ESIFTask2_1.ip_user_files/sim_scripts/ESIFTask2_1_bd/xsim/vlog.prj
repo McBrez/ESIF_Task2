@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../ESIFTask2_1.srcs/sources_1/bd/ESIFTask2_1_bd/ipshared/ec67/hdl" --include "../../../../ESIFTask2_1.srcs/sources_1/bd/ESIFTask2_1_bd/ipshared/70cf/hdl" --include "../../../../ESIFTask2_1.srcs/sources_1/bd/ESIFTask2_1_bd/ip/ESIFTask2_1_bd_processing_system7_0_0" \
+"../../../bd/ESIFTask2_1_bd/ip/ESIFTask2_1_bd_processing_system7_0_0/sim/ESIFTask2_1_bd_processing_system7_0_0.v" \
+"../../../bd/ESIFTask2_1_bd/ip/ESIFTask2_1_bd_auto_pc_0/sim/ESIFTask2_1_bd_auto_pc_0.v" \
+"../../../bd/ESIFTask2_1_bd/sim/ESIFTask2_1_bd.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

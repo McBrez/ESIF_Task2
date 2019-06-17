@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/ESIFTask2_1_bd/ip/ESIFTask2_1_bd_axi_gpio_0_0/sim/ESIFTask2_1_bd_axi_gpio_0_0.vhd" \
+"../../../bd/ESIFTask2_1_bd/ip/ESIFTask2_1_bd_rst_ps7_0_100M_0/sim/ESIFTask2_1_bd_rst_ps7_0_100M_0.vhd" \
+
+nosort

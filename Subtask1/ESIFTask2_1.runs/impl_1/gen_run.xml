@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1560795357">
+  <File Type="ROUTE-PWR" Name="ESIFTask2_1_bd_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ESIFTask2_1_bd_wrapper.tcl"/>
+  <File Type="BITSTR-BMM" Name="ESIFTask2_1_bd_wrapper_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="ESIFTask2_1_bd_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ESIFTask2_1_bd_wrapper_reports.tcl"/>
+  <File Type="OPT-DCP" Name="ESIFTask2_1_bd_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ESIFTask2_1_bd_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ESIFTask2_1_bd_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ESIFTask2_1_bd_wrapper_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="ESIFTask2_1_bd_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ESIFTask2_1_bd_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ESIFTask2_1_bd_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ESIFTask2_1_bd_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ESIFTask2_1_bd_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ESIFTask2_1_bd_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="ESIFTask2_1_bd_wrapper.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ESIFTask2_1_bd_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="ESIFTask2_1_bd_wrapper.bin"/>
+  <File Type="PHYSOPT-DCP" Name="ESIFTask2_1_bd_wrapper_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="ESIFTask2_1_bd_wrapper.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ESIFTask2_1_bd_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ESIFTask2_1_bd_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ESIFTask2_1_bd_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ESIFTask2_1_bd_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ESIFTask2_1_bd_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ESIFTask2_1_bd_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="ESIFTask2_1_bd_wrapper.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ESIFTask2_1_bd_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="ESIFTask2_1_bd_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ESIFTask2_1_bd_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ESIFTask2_1_bd_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="ESIFTask2_1_bd_wrapper.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="ESIFTask2_1_bd_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ESIFTask2_1_bd_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ESIFTask2_1_bd_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ESIFTask2_1_bd_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ESIFTask2_1_bd_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ESIFTask2_1_bd_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="ESIFTask2_1_bd_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ESIFTask2_1_bd_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ESIFTask2_1_bd_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ESIFTask2_1_bd_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ESIFTask2_1_bd_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ESIFTask2_1_bd_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="ESIFTask2_1_bd_wrapper.bit"/>
+  <File Type="BITSTR-RBT" Name="ESIFTask2_1_bd_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="ESIFTask2_1_bd_wrapper.nky"/>
+  <File Type="BG-DRC" Name="ESIFTask2_1_bd_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="ESIFTask2_1_bd_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/ESIFTask2_1_bd/ESIFTask2_1_bd.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ESIFTask2_1_bd/hdl/ESIFTask2_1_bd_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ESIFTask2_1_bd_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ESIFTask2_1_bd_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ESIFTask2_1_bd_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ESIFTask2_1_bd_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ESIFTask2_1_bd_rst_ps7_0_100M_0"/>
+</GenRun>
