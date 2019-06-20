@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="ESIFTask2_2_bd_wrapper_hw_platform_0-target"/>
+	<item value="ESIFTask2_2_bd_wrapper.bit" key="ESIFTask2_2_bd_wrapper_hw_platform_0-bitFile"/>
+	<item value="ESIFTask2_2_bd_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="Auto Detect" key="ESIFTask2_2_bd_wrapper_hw_platform_0-device"/>
+	<item value="" key="ESIFTask2_2_bd_wrapper_hw_platform_0-bmmFile"/>
+	<item value="false" key="ESIFTask2_2_bd_wrapper_hw_platform_0-partial_bit"/>
+</section>

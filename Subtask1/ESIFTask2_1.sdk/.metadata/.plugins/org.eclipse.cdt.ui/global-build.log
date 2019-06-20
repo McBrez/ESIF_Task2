@@ -55,3 +55,13 @@ arm-none-eabi-size ESIF2_1_App.elf  |tee "ESIF2_1_App.elf.size"
   35304	   2208	  22648	  60160	   eb00	ESIF2_1_App.elf
 Finished building: ESIF2_1_App.elf.size
  
+18:59:11 **** Incremental Build of configuration Debug for project ESIF2_1_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+20:14:27 **** Incremental Build of configuration Debug for project ESIF2_1_App ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

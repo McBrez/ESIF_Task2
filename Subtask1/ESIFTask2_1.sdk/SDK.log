@@ -164,3 +164,106 @@ con
 
 22:21:51 INFO  : Launch script is exported to file 'D:\DEV\ESIF\Task2\ESIF_Task2\Subtask1\ESIFTask2_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_esif2_1_app.elf_on_local.tcl'
 22:51:04 INFO  : Disconnected from the channel tcfchan#3.
+18:57:58 INFO  : Registering command handlers for SDK TCF services
+18:58:00 INFO  : Launching XSCT server: xsct.bat -interactive D:\DEV\ESIF\Task2\ESIF_Task2\Subtask1\ESIFTask2_1.sdk\temp_xsdb_launch_script.tcl
+18:58:15 INFO  : XSCT server has started successfully.
+18:58:15 INFO  : Successfully done setting XSCT server connection channel  
+18:58:23 INFO  : Successfully done setting SDK workspace  
+18:58:23 INFO  : Processing command line option -hwspec D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper.hdf.
+18:58:23 INFO  : Checking for hwspec changes in the project ESIFTask2_1_bd_wrapper_hw_platform_0.
+18:58:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A49C81" && level==0} -index 1' command is executed.
+18:58:35 INFO  : FPGA configured successfully with bitstream "D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/ESIFTask2_1_bd_wrapper.bit"
+18:59:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A49C81" && level==0} -index 1' command is executed.
+18:59:14 INFO  : 'fpga -state' command is executed.
+18:59:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:59:14 INFO  : Jtag cable 'Digilent Zed 210248A49C81' is selected.
+18:59:14 INFO  : 'jtag frequency' command is executed.
+18:59:14 INFO  : Sourcing of 'D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/ps7_init.tcl' is done.
+18:59:14 INFO  : Context for 'APU' is selected.
+18:59:14 INFO  : Hardware design information is loaded from 'D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/system.hdf'.
+18:59:14 INFO  : 'configparams force-mem-access 1' command is executed.
+18:59:14 INFO  : Context for 'APU' is selected.
+18:59:15 INFO  : 'stop' command is executed.
+18:59:15 INFO  : 'ps7_init' command is executed.
+18:59:15 INFO  : 'ps7_post_config' command is executed.
+18:59:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:59:15 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+18:59:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:59:15 INFO  : The application 'D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIF2_1_App/Debug/ESIF2_1_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:59:15 INFO  : 'configparams force-mem-access 0' command is executed.
+18:59:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+loadhw -hw D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+dow D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIF2_1_App/Debug/ESIF2_1_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:59:15 INFO  : Memory regions updated for context APU
+18:59:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:59:15 INFO  : 'con' command is executed.
+18:59:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+con
+----------------End of Script----------------
+
+18:59:15 INFO  : Launch script is exported to file 'D:\DEV\ESIF\Task2\ESIF_Task2\Subtask1\ESIFTask2_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_esif2_1_app.elf_on_local.tcl'
+20:13:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:13:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A49C81" && level==0} -index 1' command is executed.
+20:13:04 INFO  : FPGA configured successfully with bitstream "D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/ESIFTask2_1_bd_wrapper.bit"
+20:14:30 INFO  : Disconnected from the channel tcfchan#1.
+20:14:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248A49C81" && level==0} -index 1' command is executed.
+20:14:31 INFO  : 'fpga -state' command is executed.
+20:14:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:14:32 INFO  : Jtag cable 'Digilent Zed 210248A49C81' is selected.
+20:14:32 INFO  : 'jtag frequency' command is executed.
+20:14:32 INFO  : Sourcing of 'D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:14:32 INFO  : Context for 'APU' is selected.
+20:14:33 INFO  : Hardware design information is loaded from 'D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/system.hdf'.
+20:14:34 INFO  : 'configparams force-mem-access 1' command is executed.
+20:14:34 INFO  : Context for 'APU' is selected.
+20:14:34 INFO  : 'stop' command is executed.
+20:14:34 INFO  : 'ps7_init' command is executed.
+20:14:34 INFO  : 'ps7_post_config' command is executed.
+20:14:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:14:34 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:14:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:14:34 INFO  : The application 'D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIF2_1_App/Debug/ESIF2_1_App.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:14:34 INFO  : 'configparams force-mem-access 0' command is executed.
+20:14:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+loadhw -hw D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIFTask2_1_bd_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+dow D:/DEV/ESIF/Task2/ESIF_Task2/Subtask1/ESIFTask2_1.sdk/ESIF2_1_App/Debug/ESIF2_1_App.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:14:34 INFO  : Memory regions updated for context APU
+20:14:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:14:34 INFO  : 'con' command is executed.
+20:14:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248A49C81"} -index 0
+con
+----------------End of Script----------------
+
+20:14:34 INFO  : Launch script is exported to file 'D:\DEV\ESIF\Task2\ESIF_Task2\Subtask1\ESIFTask2_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_esif2_1_app.elf_on_local.tcl'
+23:22:40 INFO  : Disconnected from the channel tcfchan#2.

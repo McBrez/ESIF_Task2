@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ESIFTask2_2.srcs/sources_1/new/pwmBlock.vhd" \
+"../../../../ESIFTask2_2.srcs/sim_1/new/pwmBlock_tb.vhd" \
+
+# Do not sort compile order
+nosort

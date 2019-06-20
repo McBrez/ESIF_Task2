@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Thu Jun 20 11:22:54 2019
+# Process ID: 6532
+# Current directory: D:/DEV/ESIF/Task2/ESIF_Task2/Subtask2/ESIFTask2_2.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/DEV/ESIF/Task2/ESIF_Task2/Subtask2/ESIFTask2_2.sdk/webtalk/webtalk.log
+# Journal file: D:/DEV/ESIF/Task2/ESIF_Task2/Subtask2/ESIFTask2_2.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
