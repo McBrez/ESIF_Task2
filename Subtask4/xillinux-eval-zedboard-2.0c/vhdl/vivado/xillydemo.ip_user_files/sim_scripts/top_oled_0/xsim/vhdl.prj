@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../../xillydemo.srcs/sources_1/ip/top_oled_0/src/top_oled.vhd" \
+"../../../../xillydemo.srcs/sources_1/ip/top_oled_0/sim/top_oled_0.vhd" \
+
+nosort
